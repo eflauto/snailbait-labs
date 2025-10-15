@@ -1,0 +1,39 @@
+body {
+    /* Background from CSS3 Patterns Gallery by Anna Kassner */
+    /* I kept the color scheme of the original because I liked it a lot -EF */
+
+    background: linear-gradient(135deg, #625fe5 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #625fe5 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #625fe5 25%, transparent 25%),
+    linear-gradient(45deg, #625fe5 25%, transparent 25%);
+
+    background-size: 100px 100px;
+
+    background-color: #6d6aff;
+}
+
+#arena {
+    margin: 0 auto;
+    width: 802px;
+    height: 520px;
+}
+
+#game-canvas {
+    border: 1.5px solid blue;
+}
+
+#score {
+    font: 46px fantasy;
+    text-align: center;
+    color: #ff0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 80, 1.0);
+}
+
+#fps {
+    position: absolute;
+    margin-top: -2em;
+    z-index: 1;
+    color: yellow;
+    text-shadow: 1px 1px 1px rgb(0, 0, 80);
+    font: bold 20px fantasy;
+}
